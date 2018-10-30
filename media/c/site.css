@@ -158,7 +158,7 @@ body.loading {
 
 .social a {
     height: 30px;
-    width: 30px;
+    width: 115px;
     line-height: 30px;
     border: none;
     float: left;
@@ -340,7 +340,7 @@ body.edit #parts {
     opacity: 1;
     color: #fff;
     cursor: pointer;
-	
+
 }
 #footer .social a:hover {
     -webkit-border-radius: 18px;
