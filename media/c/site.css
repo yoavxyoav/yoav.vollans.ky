@@ -146,8 +146,8 @@ body.loading {
     height: 170px;
     margin-right: 30px;
     margin-left: 15px;
-    float: left;
-    width: 392px;
+    float: none;
+    width: 492px;
     padding-top: 20px;
 }
 
@@ -511,7 +511,7 @@ body.thanks #header h1 {
     }
     #awards,
     #parts {
-        display: none;
+        display: grid;
         margin: 0px;
     }
     .social {

@@ -3,9 +3,14 @@
     margin-top: -94px;
 }
 
+
+/* This is the main person image */
 #img-002_s1 {
+  
     margin-left: 368px;
     margin-top: 112px;
+/*    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222); */
 }
 
 #img-003_s1 {
