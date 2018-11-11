@@ -488,6 +488,7 @@ body.thanks #header h1 {
     background: url(../i/shadow.png);
 }
 
+/*
 @media (max-width: 800px) {
     #wrap,
     #header,
@@ -521,3 +522,4 @@ body.thanks #header h1 {
         padding: 0px;
     }
 }
+*/
