@@ -239,7 +239,7 @@ body.loading {
     position: relative;
     height: 900px;
     z-index: 1;
-    opacity: 0;
+    opacity: 1; /* change by Yoav from 0 */
 }
 
 #parts img {
@@ -438,7 +438,7 @@ body.thanks #header h1 {
 }
 
 .touch #parts img {
-    display: none;
+    display: block; /* Changed by Yoav from none */
 }
 
 .touch #footer {
