@@ -122,6 +122,7 @@
     };
 
     function touchInit() {};
+
     $(function() {
         if ($('body').hasClass('home')) {
             $('#footer').css({
@@ -133,9 +134,9 @@
                 top: 0,
                 left: 0
             });
-            if (Modernizr.touch) {
-                touchInit()
-            } else {
+//            if (Modernizr.touch) {
+//                touchInit()
+//            } else {
                 init();
                 $(window).resize(function() {
                     init();
@@ -147,7 +148,7 @@
                     $(window).scroll(position);
                     position()
                 }
-            }
+//            }
         }
     });
     $(window).load(function() {

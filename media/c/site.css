@@ -165,7 +165,7 @@ body.loading {
     margin: 0 5px 0 0;
     padding: 0;
     -webkit-transition: 300ms all;
-    background: #A09F9E;
+    background: #02b542;
     opacity: 0.9;
     color: #deddd8;
     text-align: center;
@@ -239,7 +239,7 @@ body.loading {
     position: relative;
     height: 900px;
     z-index: 1;
-    opacity: 1; /* change by Yoav from 0 */
+    opacity: 0; /* change by Yoav from 0 */
 }
 
 #parts img {
@@ -407,6 +407,8 @@ body.thanks #header h1 {
     margin: 10px 0;
 }
 
+/* Commented out by Yoav
+
 .touch #wrap {
     margin: 0 auto;
     width: 640px;
@@ -438,8 +440,10 @@ body.thanks #header h1 {
 }
 
 .touch #parts img {
-    display: block; /* Changed by Yoav from none */
+    display: block; /* original value 'none' */
 }
+
+/* Commented out by Yoav
 
 .touch #footer {
     margin-bottom: 100px;
@@ -448,6 +452,8 @@ body.thanks #header h1 {
 .touch #footer .logo {
     margin-right: 20px;
 }
+
+*/
 
 /*tooltip css*/
 
@@ -488,7 +494,6 @@ body.thanks #header h1 {
     background: url(../i/shadow.png);
 }
 
-/*
 @media (max-width: 800px) {
     #wrap,
     #header,
@@ -512,7 +517,7 @@ body.thanks #header h1 {
     }
     #awards,
     #parts {
-        display: grid;
+        display: block; /*changed from 'none' by Yoav */
         margin: 0px;
     }
     .social {
@@ -521,5 +526,12 @@ body.thanks #header h1 {
     #header h2 {
         padding: 0px;
     }
-}
-*/
+
+
+/* added by yoav to slove header png mobile problem, making it centered
+    #header .content {
+    display: block;
+    width: 280px;
+    margin: 0 105%;
+    margin-top: 30px;
+}*/
