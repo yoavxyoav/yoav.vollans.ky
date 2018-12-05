@@ -555,7 +555,16 @@ body.thanks #header h1 {
       padding-top: 10px;
       padding-bottom: 10px;
       margin-top: 5px;
+
+      color: #fff;
+      cursor: pointer;
+      -webkit-border-radius: 18px;
+      -moz-border-radius: 18px;
+      border-radius: 18px;
+      background: #e44e04;
     }
+
+
 
 
 /* added by yoav to slove header png mobile problem, making it centered
