@@ -517,7 +517,7 @@ body.thanks #header h1 {
     }
     #awards,
     #parts {
-        display: block; /*changed from 'none' by Yoav */
+        display: none; /*changed from 'none' by Yoav */
         margin: 0px;
     }
     .social {
