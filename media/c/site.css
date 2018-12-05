@@ -458,7 +458,7 @@ body.thanks #header h1 {
 /*tooltip css*/
 
 .masterTooltip {}
-/* XXX:  */
+
 .tooltip {
     display: none;
     max-width: 220px;
@@ -499,18 +499,37 @@ body.thanks #header h1 {
     #header,
     .content,
     #parts {
-        width: 310px;
         margin: 0px 10px;
+        display: initial;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
+
+    #breaks { /*added by Yoav */
+      display: none;
+    }
+
+    #typo_box {
+      display: block;
+    }
+
+
     #footer,
     .social,
     #awards {
-        width: 304px;
-        margin: 0px 10px;
+      /*width: 304px; commented out by Yoav */
+      margin: 0px 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+
     }
     #footer .liner {
         width: 304px;
         margin: 0px 10px;
+        display: none; /*added by Yoav */
     }
     .shadow {
         background: url(site.css);
@@ -521,12 +540,22 @@ body.thanks #header h1 {
         margin: 0px;
     }
     .social {
-        margin: 0px 0px 0px 7px;
+        /* margin: 0px 0px 0px 7px; Commented out by Yoav */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     #header h2 {
         padding: 0px;
     }
-    /**/
+
+    .social a { /* added by Yoav */
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 5px;
+    }
 
 
 /* added by yoav to slove header png mobile problem, making it centered
