@@ -458,7 +458,7 @@ body.thanks #header h1 {
 /*tooltip css*/
 
 .masterTooltip {}
-
+/* XXX:  */
 .tooltip {
     display: none;
     max-width: 220px;
