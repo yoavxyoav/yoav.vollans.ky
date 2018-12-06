@@ -1,6 +1,3 @@
-body {
-  min-width: 1080px;
-}
 
 body.loading {
     background-image: url(../i/loader.gif);
@@ -573,6 +570,10 @@ body.thanks #header h1 {
       background: #e44e04;
     }
 
+
+    body { /* added by Yoav to fix the iPad Safari problem */
+      margin: auto;
+    }
 
 
 
