@@ -556,10 +556,10 @@ body.thanks #header h1 {
 
     .social a { /* added by Yoav */
       width: 100%;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      margin-top: 7px;
-      font-size: x-large;
+      padding-top: 23px;
+      padding-bottom: 23px;
+      margin-top: 15px;
+      font-size: xx-large;
 
       /* copied from social a:hover above by Yoav to make buttons orange, and same as when "hovered" */
       color: #fff;
