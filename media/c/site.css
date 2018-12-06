@@ -512,6 +512,8 @@ body.thanks #header h1 {
 
     #typo_box {
       display: block;
+      margin:auto;
+      height: 580px !important;
     }
 
 
@@ -523,7 +525,7 @@ body.thanks #header h1 {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
+      width: 70%;
 
     }
     #footer .liner {
@@ -552,10 +554,12 @@ body.thanks #header h1 {
 
     .social a { /* added by Yoav */
       width: 100%;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      margin-top: 5px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: 7px;
+      font-size: x-large;
 
+      /* copied from social a:hover above by Yoav to make buttons orange, and same as when "hovered" */
       color: #fff;
       cursor: pointer;
       -webkit-border-radius: 18px;
