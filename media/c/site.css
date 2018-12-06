@@ -1,3 +1,7 @@
+body {
+  min-width: 1080px;
+}
+
 body.loading {
     background-image: url(../i/loader.gif);
     background-position: center 100px;
