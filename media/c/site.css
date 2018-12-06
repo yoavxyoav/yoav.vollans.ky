@@ -496,7 +496,7 @@ body.thanks #header h1 {
     background: url(../i/shadow.png);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 980px) {
     #wrap,
     #header,
     .content,
