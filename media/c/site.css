@@ -9,7 +9,7 @@ body.loading {
 #wrap {
     overflow: hidden;
     width: 100%;
-    min-width: 960px;
+    /* min-width: 960px; outed by Yoav*/
     margin: auto;
 }
 
