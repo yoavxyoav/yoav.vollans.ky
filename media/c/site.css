@@ -506,7 +506,7 @@ body.thanks #header h1 {
         width: 50%;
     }
 
-    #breaks { /*added by Yoav */
+    #breaks, #breaks2{ /*added by Yoav */
       display: none;
     }
 
